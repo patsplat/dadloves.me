@@ -73,6 +73,13 @@ gulp.task('connect', function() {
   });
 });
 
+// Watch Files For Changes
+gulp.task('watch', function() {
+    gulp.watch('*.js', ['js']);
+    gulp.watch('*.scss', ['css']);
+    gulp.watch('img/*.*', ['img']);
+});
+
 gulp.task('default', ['clean'], function() {
     gulp.start('css', 'js', 'img');
 });

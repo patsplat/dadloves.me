@@ -33,9 +33,27 @@ body {
 }
 
 h1 {
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -100px;
   position: absolute;
-  height: 50%;
-  top: 25%;
+  top: 50%;
+  width: 100%;
   z-index: 1000;
-  color: white;
+  color: #fffff6;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50vw;
+  text-shadow: 0 0 100px #000022;
+}
+h1 .D {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  display: inline-block;
+}
+h1 .aD {
+  display: inline-block;
 }
