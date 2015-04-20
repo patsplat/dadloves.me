@@ -1,0 +1,1 @@
+#ground,#horizon{top:50%;width:100%}#ground,#horizon,#stars,h1{position:absolute}body{position:relative;margin:0;padding:0;overflow:hidden}#stars{width:100%;height:auto;top:0;left:0;z-index:1}#ground,#horizon,h1{height:50%}#horizon{left:0;z-index:100}#ground{left:0;z-index:10}h1{top:25%;z-index:1000;color:#fff}
